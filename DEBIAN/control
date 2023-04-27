@@ -1,0 +1,14 @@
+Package: jason-cli
+Version: 3.2.0
+Priority:
+Architecture: all
+Essential:
+Depends: openjdk-17-jre
+Pre-depends: 
+Suggests:
+Installed-Size:
+Maintainer: chon@grupo.cefet-rj.br
+Conflicts:
+Replaces:
+Provides:
+Description: Jason-CLI
