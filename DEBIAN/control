@@ -1,5 +1,5 @@
 Package: jason-cli
-Version: 3.2.0
+Version: 3.2.0-001
 Priority:
 Architecture: all
 Essential:
@@ -11,4 +11,4 @@ Maintainer: chon@grupo.cefet-rj.br
 Conflicts:
 Replaces:
 Provides:
-Description: Jason-CLI
+Description: Provides the Jason CLI, a command-line interface tool for Jason applications, for Debian and derivates.
