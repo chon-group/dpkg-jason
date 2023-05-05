@@ -7,8 +7,22 @@ Jason is an interpreter for an extended version of AgentSpeak. It implements the
 
 ## INSTALATION
 ```console
-user@machine:~$ echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list 
-user@machine:~$ sudo apt update; sudo apt install jason-cli
+user@pc:~$ echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list 
+user@pc:~$ sudo apt update
+user@pc:~$ sudo apt install jason-cli
+```
+
+## USING
+```console
+user@pc:~$ jason app create multiagentSystem --console
+Creating directory multiagentSystem
+
+You can run your application with:
+   $ jason multiagentSystem/multiagentSystem.mas2j
+
+user@pc:~$ jason multiagentSystem/multiagentSystem.mas2j 
+[bob] hello world.
+[alice] hello world.
 ```
 
 ## COPYRIGHT
