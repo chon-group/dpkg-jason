@@ -1,28 +1,30 @@
-# jason-cli - Debian Package for [Jason CLI](jason-lang.github.io/jason/jason-cli/)
+# jason-cli - APT Package for [Jason CLI](jason-lang.github.io/jason/jason-cli/)
 
 ## DESCRIPTION
-This package provides the Jason CLI, a command-line interface tool for Jason applications, for Debian and derivates.
+This package provides the Jason CLI, a command-line interface tool for Jason applications, for Debian, Ubuntu, and derivates.
 
 Jason is an interpreter for an extended version of AgentSpeak. It implements the operational semantics of that language, and provides a platform for the development of multi-agent systems, with many user-customisable features. Jason is available as Open Source, and is distributed under GNU LGPL.
 
 ## INSTALATION
+To install the Jason execute the following commmands in a terminal.
 ```console
-user@pc:~$ echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list 
-user@pc:~$ sudo apt update
-user@pc:~$ sudo apt install jason-cli
+echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list 
+sudo apt update
+sudo apt install jason-cli
 ```
 
 ## USING
+To execute the Jason execute the following commands in a terminal.
 ```console
-user@pc:~$ jason app create multiagentSystem --console
-Creating directory multiagentSystem
+jason app create multiagentSystem --console
+   Creating directory multiagentSystem
 
-You can run your application with:
-   $ jason multiagentSystem/multiagentSystem.mas2j
+   You can run your application with:
+      $ jason multiagentSystem/multiagentSystem.mas2j
 
-user@pc:~$ jason multiagentSystem/multiagentSystem.mas2j 
-[bob] hello world.
-[alice] hello world.
+jason multiagentSystem/multiagentSystem.mas2j 
+   [bob] hello world.
+   [alice] hello world.
 ```
 
 ## COPYRIGHT
