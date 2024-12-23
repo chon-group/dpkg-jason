@@ -1,4 +1,4 @@
-# jason-cli - APT Package for [Jason CLI](jason-lang.github.io/jason/jason-cli/)
+# jason-cli - APT Package for [Jason CLI](https://jason-lang.github.io/jason/jason-cli/)
 
 ## DESCRIPTION
 This package provides the Jason CLI, a command-line interface tool for Jason applications, for Debian, Ubuntu, and derivates.
