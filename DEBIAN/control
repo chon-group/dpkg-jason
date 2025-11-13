@@ -1,9 +1,9 @@
 Package: jason-cli
-Version: 3.3.0-Version-241017
+Version: 3.3.0-Version-251113
 Priority:
 Architecture: all
 Essential:
-Depends: openjdk-21-jdk | temurin-21-jdk
+Depends: openjdk-21-jdk | temurin-21-jdk | bellsoft-java21
 Pre-depends: 
 Suggests:
 Installed-Size:
